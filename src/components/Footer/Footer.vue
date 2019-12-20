@@ -3,40 +3,20 @@
     <div class="wrapper">
       <div class="footer__contacts">
         <div class="footer__contacts-item">
-          <img
-            src="../../assets/images/icon-address.png"
-            class="footer__contacts-img"
-            alt=""
-          />
+          <img src="../../assets/images/icon-address.png" class="footer__contacts-img" alt />
           МО, г. Балашиха, ш. Энтузиастов, д.32
         </div>
         <div class="footer__contacts-item">
-          <img
-            src="../../assets/images/icon-time.png"
-            class="footer__contacts-img"
-            alt=""
-          />
+          <img src="../../assets/images/icon-time.png" class="footer__contacts-img" alt />
           с 8:00 до 18:00 будние дни
         </div>
         <div class="footer__contacts-item">
-          <img
-            src="../../assets/images/icon-phone.png"
-            class="footer__contacts-img"
-            alt=""
-          />
-          <a class="footer__contacts-link" href="tel:+74993900877"
-            >8 (499) 390 08 77</a
-          >
+          <img src="../../assets/images/icon-phone.png" class="footer__contacts-img" alt />
+          <a class="footer__contacts-link" href="tel:+74993900877">8 (499) 390 08 77</a>
         </div>
         <div class="footer__contacts-item">
-          <img
-            src="../../assets/images/icon-post.png"
-            class="footer__contacts-img"
-            alt=""
-          />
-          <a class="footer__contacts-link" href="mailto:3900877@bk.ru"
-            >3900877@bk.ru</a
-          >
+          <img src="../../assets/images/icon-post.png" class="footer__contacts-img" alt />
+          <a class="footer__contacts-link" href="mailto:3900877@bk.ru">3900877@bk.ru</a>
         </div>
       </div>
     </div>
@@ -45,13 +25,15 @@
 
 <script>
 export default {
-  name: 'Footer'
+  name: "Footer"
 };
 </script>
 
 <style>
 .footer {
+  border-top: 60px solid #727270;
   padding-top: 40px;
+  padding-bottom: 60px;
 }
 .footer__contacts {
   display: flex;

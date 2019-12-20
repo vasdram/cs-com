@@ -1,0 +1,28 @@
+.article__head {
+  color: #000;
+  font-size: 32px;
+  margin-bottom: 30px;
+  margin-top: 5px;
+  text-transform: uppercase;
+  line-height: 36px;
+  font-weight: 300;
+}
+
+.article__title {
+  color: #333333;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  padding-bottom: 13px;
+  margin-bottom: 15px;
+}
+
+.article__list-item {
+  color: #5b5d5e;
+  list-style: outside square;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 1.3em;
+}
