@@ -10,8 +10,6 @@ const nav = [
   { id: 5, url: '/kontakty', name: 'Контакты' }
 ];
 
-//const getNav = ;
-
 router.get('/api/v1.0/', (req, res) => {
   res.send('Hello api');
 });
