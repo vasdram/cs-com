@@ -7,4 +7,11 @@
   { "id": 5, "url": "/kontakty", "name": "Контакты" }
 ]
 
-//db.navigation.insertMore()
+// db.navigation.insertMany([
+//   {  "url": "/o-kompanii", "name": "О компании" },
+//   {  "url": "/proekty", "name": "Проекты" },
+//   {  "url": "/proektirovanie", "name": "Проектирование" },
+//   {  "url": "/stroitelstvo", "name": "Строительство" },
+//   {  "url": "/shop", "name": "Магазин" },
+//   {  "url": "/kontakty", "name": "Контакты" }
+// ])
