@@ -11,11 +11,11 @@ app.use('/api/admin/', require('./routes/routes.admin'));
 
 const start = async () => {
   try {
-    // await mongoose.connect(config.get('mongoUri'), {
-    //   useNewUrlParser: true,
-    //   useUnifiedTopology: true,
-    //   useCreateIndex: true
-    // });
+    await mongoose.connect(config.get('mongoUri'), {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+      useCreateIndex: true
+    });
 
     app.listen(PORT, () => {
       console.log(`Server run on port ${PORT}`);

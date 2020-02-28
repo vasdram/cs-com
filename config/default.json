@@ -1,4 +1,5 @@
 {
   "port": 5000,
-  "mongoUri": "qwe"
+  "mongoUri": "mongodb+srv://vakozlov:8fcf619be@cluster0-fetu2.mongodb.net/app?retryWrites=true&w=majority",
+  "secretJwt": "cluster0-fetu2.mongodb.net/app?retryWrites=true&"
 }
