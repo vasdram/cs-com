@@ -33,7 +33,15 @@ export default {
   name: "Tabpanel",
   data: function() {
     return {
-      panelActive: 1
+      panelActive: 1,
+      tablist: [
+        { id: 1, name: "Сети и системы связи" },
+        { id: 2, name: "It услуги" },
+        { id: 3, name: "Силовая инженерия" },
+        { id: 4, name: "Системы безопасности" },
+        { id: 5, name: "Аудио/видео решения" },
+        { id: 6, name: "Разработка ПО" }
+      ]
     };
   },
   methods: {
@@ -41,18 +49,7 @@ export default {
       this.panelActive = num;
     }
   },
-  computed: {
-    tablist: function() {
-      return [
-        { id: 1, name: "Сети и системы связи" },
-        { id: 2, name: "It услуги" },
-        { id: 3, name: "Силовая инженерия" },
-        { id: 4, name: "Системы безопасности" },
-        { id: 5, name: "Аудио/видео решения" },
-        { id: 6, name: "Разработка ПО" }
-      ];
-    }
-  }
+  
 };
 </script>
 

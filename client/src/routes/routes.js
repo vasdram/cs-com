@@ -1,10 +1,10 @@
-import PageMain from '../components/Pages/Main';
-import About from '../components/Pages/About';
-import Proektirovanie from '../components/Pages/Proektirovanie';
-import Contacts from '../components/Pages/Contacts';
-import Projects from '../components/Pages/Projects';
-import Shop from '../components/Pages/Shop';
-import Stroitelstvo from '../components/Pages/Stroitelstvo';
+import PageMain from '../pages/Main';
+import About from '../pages/About';
+import Proektirovanie from '../pages/Proektirovanie';
+import Contacts from '../pages/Contacts';
+import Projects from '../pages/Projects';
+import Shop from '../pages/Shop';
+import Stroitelstvo from '../pages/Stroitelstvo';
 
 export const routes = [
   { path: '/', component: PageMain },

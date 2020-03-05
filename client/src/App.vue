@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Layout>
-      <router-view></router-view>
+      <router-view />
     </Layout>
   </div>
 </template>
@@ -10,7 +10,7 @@
 import './assets/styles/normalize.css';
 import './assets/styles/common.css';
 import './assets/styles/article.css';
-import Layout from './components/Layout/Layout';
+import Layout from './layouts/Layout';
 
 export default {
   name: 'app',

@@ -1,7 +1,9 @@
-<template><Tabpanel /></template>
+<template>
+  <Tabpanel />
+</template>
 
 <script>
-import Tabpanel from '../Tabpanel/Tabpanel';
+import Tabpanel from '../components/Tabpanel/Tabpanel';
 
 export default {
   name: 'PageMain',

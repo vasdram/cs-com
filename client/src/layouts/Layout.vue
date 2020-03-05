@@ -13,8 +13,8 @@
 </template>
 
 <script>
-import Header from '../Header';
-import Footer from '../Footer/Footer';
+import Header from '../components/Header';
+import Footer from '../components/Footer/Footer';
 
 export default {
   name: 'Layout',
